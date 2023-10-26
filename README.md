@@ -1,4 +1,3 @@
-
 # Car Sales By Dealers
 
 Car Sales and Service System is a web-based application developed using Django, designed to manage car sales and api operations.
@@ -43,24 +42,33 @@ To deploy this project run
 ```Create a virtual environment (optional but recommended):
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 Install the required packages:
 
 pip install -r requirements.txt
+
 Apply the database migrations:
 
-
 python manage.py migrate
+
 Create a superuser account for initial access to the admin panel:
 
 python manage.py createsuperuser
+
+OR use this
+USERNAME : admin
+PASSOWRD : admin123
+
 Collect the static files:
 
-
 python manage.py collectstatic
+
 Start the development server:
 
 python manage.py runserver
+
 You should now be able to access the application by opening your web browser and navigating to http://localhost:8000/.
 
 
@@ -83,3 +91,22 @@ Create a new branch for your feature or bug fix.
 Make your changes and commit them.
 Push your changes to your fork.
 Submit a pull request to the main repository.
+
+## Running Tests
+
+To run tests, run the following command
+
+  TO RUN THE UI
+```
+  http://127.0.0.1:8000/
+```
+
+TO RUN THE DJANGO ADMIN
+```
+http://127.0.0.1:8000/admin/
+```
+
+  TO RUN THE API
+```
+http://127.0.0.1:8000/api/v1/
+```
