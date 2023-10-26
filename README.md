@@ -1,3 +1,4 @@
+
 # Car Sales By Dealers
 
 Car Sales and Service System is a web-based application developed using Django, designed to manage car sales and api operations.
@@ -110,3 +111,23 @@ http://127.0.0.1:8000/admin/
 ```
 http://127.0.0.1:8000/api/v1/
 ```
+## API Endpoints:
+
+### Customer Details API
+
+- **Endpoint:** `/api/customer_details/`
+- **Description:** Get a list of customer details.
+- **Methods:** GET, POST
+
+### Products API
+
+- **Endpoint:** `/api/products/`
+- **Description:** Get a list of products.
+- **Methods:** GET, POST
+
+### Sales API
+
+- **Endpoint:** `/api/sales/`
+- **Description:** Get a list of sales records.
+- **Methods:** GET, POST
+
