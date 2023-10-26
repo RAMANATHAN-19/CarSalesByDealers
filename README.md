@@ -42,24 +42,33 @@ To deploy this project run
 ```Create a virtual environment (optional but recommended):
 
 python3 -m venv venv
+
 source venv/bin/activate
+
 Install the required packages:
 
 pip install -r requirements.txt
+
 Apply the database migrations:
 
-
 python manage.py migrate
+
 Create a superuser account for initial access to the admin panel:
 
 python manage.py createsuperuser
+
+OR use this
+USERNAME : admin
+PASSOWRD : admin123
+
 Collect the static files:
 
-
 python manage.py collectstatic
+
 Start the development server:
 
 python manage.py runserver
+
 You should now be able to access the application by opening your web browser and navigating to http://localhost:8000/.
 
 
