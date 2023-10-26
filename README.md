@@ -1,4 +1,3 @@
-
 # Car Sales By Dealers
 
 Car Sales and Service System is a web-based application developed using Django, designed to manage car sales and api operations.
@@ -83,5 +82,24 @@ Create a new branch for your feature or bug fix.
 Make your changes and commit them.
 Push your changes to your fork.
 Submit a pull request to the main repository.
+
+## Running Tests
+
+To run tests, run the following command
+
+  TO RUN THE UI
+```
+  http://127.0.0.1:8000/
+```
+
+TO RUN THE DJANGO ADMIN
+```
+http://127.0.0.1:8000/admin/
+```
+
+  TO RUN THE API
+```
+http://127.0.0.1:8000/api/v1/
+```
 
 https://github.com/RAMANATHAN-19/CarSalesByDealers/assets/148554695/62473593-531e-411a-bdd8-f6c4bcc1b9b1
