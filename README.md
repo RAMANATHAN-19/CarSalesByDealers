@@ -110,5 +110,24 @@ http://127.0.0.1:8000/admin/
 ```
 http://127.0.0.1:8000/api/v1/
 ```
+## API Endpoints:
+
+### Customer Details API
+
+- **Endpoint:** `/api/customer_details/`
+- **Description:** Get a list of customer details.
+- **Methods:** GET, POST
+
+### Products API
+
+- **Endpoint:** `/api/products/`
+- **Description:** Get a list of products.
+- **Methods:** GET, POST
+
+### Sales API
+
+- **Endpoint:** `/api/sales/`
+- **Description:** Get a list of sales records.
+- **Methods:** GET, POST
 
 https://github.com/RAMANATHAN-19/CarSalesByDealers/assets/148554695/62473593-531e-411a-bdd8-f6c4bcc1b9b1
