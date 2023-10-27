@@ -45,10 +45,6 @@ python3 -m venv venv
 
 source venv/bin/activate
 
-Install the required packages:
-
-pip install -r requirements.txt
-
 Apply the database migrations:
 
 python manage.py migrate
