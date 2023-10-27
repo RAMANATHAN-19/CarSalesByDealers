@@ -114,19 +114,19 @@ http://127.0.0.1:8000/api/v1/
 
 ### Customer Details API
 
-- **Endpoint:** `/api/customer_details/`
+- **Endpoint:** `/api/v1/customer_details/`
 - **Description:** Get a list of customer details.
 - **Methods:** GET, POST
 
 ### Products API
 
-- **Endpoint:** `/api/products/`
+- **Endpoint:** `/api/v1/products/`
 - **Description:** Get a list of products.
 - **Methods:** GET, POST
 
 ### Sales API
 
-- **Endpoint:** `/api/sales/`
+- **Endpoint:** `/api/v1/sales/`
 - **Description:** Get a list of sales records.
 - **Methods:** GET, POST
 
